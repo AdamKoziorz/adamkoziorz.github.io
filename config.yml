@@ -17,8 +17,8 @@ params:
         title: "Welcome!" # optional default will be site title
         subtitle: "Adam Koziorz - Portfolio"
         imageUrl: "hello.gif"
-        imageWidth: 200 # custom size
-        imageHeight: 200 # custom size
+        imageWidth: 300 # custom size
+        imageHeight: 300 # custom size
         buttons:
             - name: Github
               url: "https://github.com/AdamKoziorz"
