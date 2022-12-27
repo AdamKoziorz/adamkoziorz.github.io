@@ -1,0 +1,30 @@
+baseURL: http://adamkoziorz.github.io/
+languageCode: en-us
+title: Adam Koziorz
+theme: PaperMod
+
+params:
+    profileMode:
+        enabled: true
+        title: "Welcome!" # optional default will be site title
+        subtitle: "Adam Koziorz - Portfolio"
+        imageUrl: "hello.gif"
+        imageWidth: 200 # custom size
+        imageHeight: 200 # custom size
+        buttons:
+            - name: Github
+              url: "https://github.com/akoziorz"
+        ShowBreadCrums: true
+
+menu:
+  main:
+    - identifier: Courses Notes
+      name: Course Notes
+      url: /courses/
+      weight: 1
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
