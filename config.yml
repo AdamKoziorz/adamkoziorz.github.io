@@ -8,7 +8,7 @@ params:
         enabled: true
         title: "Welcome!" # optional default will be site title
         subtitle: "Adam Koziorz - Portfolio"
-        imageUrl: "/hello.gif"
+        imageUrl: "hello.gif"
         imageWidth: 200 # custom size
         imageHeight: 200 # custom size
         buttons:
@@ -20,7 +20,7 @@ menu:
   main:
     - identifier: Resume
       name: Resume
-      url: /Resume.pdf
+      url: Resume.pdf
       weight: 1
     - identifier: Courses Notes
       name: Course Notes
