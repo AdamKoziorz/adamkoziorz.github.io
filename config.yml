@@ -27,8 +27,6 @@ params:
         ShowBreadCrums: true
 
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: Adam
-    author: Adam
 
     defaultTheme: light # defaultTheme: light or dark
     disableThemeToggle: false
