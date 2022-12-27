@@ -22,6 +22,8 @@ params:
         buttons:
             - name: Github
               url: "https://github.com/AdamKoziorz"
+            - name: Resume
+              url: "https://adamkoziorz.github.io/home/Resume.pdf"
         ShowBreadCrums: true
 
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
