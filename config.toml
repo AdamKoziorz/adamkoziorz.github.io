@@ -1,7 +1,6 @@
 baseURL = "http://adamkoziorz.github.io/"
 languageCode = "en-us"
 title = "Adam Koziorz"
-theme = "hugo-PaperMod"
 
 [[module.imports]]
 path = "github.com/adityatelange/hugo-PaperMod"
