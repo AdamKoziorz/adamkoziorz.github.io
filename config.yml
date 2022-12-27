@@ -50,14 +50,10 @@ params:
 
 menu:
   main:
-    - identifier: Resume
-      name: Resume
-      url: "https://adamkoziorz.github.io/home/Resume.pdf"
-      weight: 1
     - identifier: Courses Notes
       name: Course Notes
       url: courses
-      weight: 2
+      weight: 1
 
 # Other Stuff
 outputs:
