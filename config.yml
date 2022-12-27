@@ -1,8 +1,16 @@
+# Main Information
 baseURL: http://adamkoziorz.github.io/
 languageCode: en-us
 title: Adam Koziorz
 theme: PaperMod
 
+# Toggles
+enableInlineShortcodes: true
+enableEmoji: true # allowing using emoji
+ShowPostNavLinks: true
+ShowBreadCrumbs: true
+
+# Main Page (Parameters)
 params:
     profileMode:
         enabled: true
@@ -16,19 +24,50 @@ params:
               url: "https://github.com/AdamKoziorz"
         ShowBreadCrums: true
 
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Adam
+    author: Adam
+
+    defaultTheme: light # defaultTheme: light or dark
+    disableThemeToggle: false
+    DateFormat: "2006-01-02"
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableScrollToTop: false
+    displayFullLangName: false
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    hideFooter: true
+    ShowWordCounts: true
+    VisitCount: true
+    ShowLastMod: true
+    ShowToc: true
+    TocOpen: true
+    comments: true
+
+
 menu:
   main:
     - identifier: Resume
       name: Resume
-      url: Resume.pdf
+      url: "https://adamkoziorz.github.io/home/Resume.pdf"
       weight: 1
     - identifier: Courses Notes
       name: Course Notes
-      url: /courses/
+      url: courses
       weight: 2
 
+# Other Stuff
 outputs:
   home:
     - HTML
     - RSS
     - JSON
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+permalinks:
+    post: "/:title/"
+    # post: "/:year/:month/:day/:title/"
