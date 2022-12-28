@@ -16,14 +16,14 @@ params:
         enabled: true
         title: "Welcome!" # optional default will be site title
         subtitle: "Adam Koziorz - Portfolio"
-        imageUrl: "hello.gif"
-        imageWidth: 300 # custom size
-        imageHeight: 300 # custom size
+        imageUrl: "temp.png"
+        imageWidth: 200 # custom size
+        imageHeight: 200 # custom size
         buttons:
             - name: Github
               url: "https://github.com/AdamKoziorz"
             - name: Resume
-              url: "https://adamkoziorz.github.io/resume.pdf"
+              url: /resume
         ShowBreadCrums: true
 
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -42,7 +42,7 @@ params:
     VisitCount: true
     ShowLastMod: true
     ShowToc: true
-    TocOpen: true
+    TocOpen: false
     comments: true
 
 

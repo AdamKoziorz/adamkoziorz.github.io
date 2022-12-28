@@ -39,7 +39,7 @@ With these courses, I was able to explore many unfamiliar subfields of computer 
 
 ## Electives
 
-Though I am persuing a Computer Science degree, I have a very deep interest in music and have taken two courses in music so far. As both as an avid listener and composer, I appreciate the beauty of music and recognize how powerfully it controls our well-being and identity. I am actively looking for possible projects that intersects music with software, and I do have a relatively large side project in the works.
+Though I am persuing a Computer Science degree, I have a very deep interest in music and have taken two courses in music so far. As both as an avid listener and composer, I recognize how powerfully music affects our well-being and personal identity. I am actively looking for possible projects that intersects music with software, and I do have a relatively large side project in the works.
 
 In addition to Music courses, I have also taken courses in Human Resources, Professional Development and Digital Communication - all of which will help me navigate through the workforce with awareness of how the software I develop, as well as how that software is developed, can affect people.
 
@@ -47,7 +47,6 @@ In addition to Music courses, I have also taken courses in Human Resources, Prof
 
 I do have some rough notes for the following courses:
 - CS136
-- CS240
 - CS241
 - MAT239
 - STAT230
