@@ -1,7 +1,7 @@
 ---
 title: "Past Courses"
 url: "courses/past"
-summary: Quick summaries of past courses
+summary: Quick summaries of past courses that I have taken at UWaterloo
 ShowToc: true
 ---
 

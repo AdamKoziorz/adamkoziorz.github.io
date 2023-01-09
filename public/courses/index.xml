@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses on Adam Koziorz</title>
+    <link>http://localhost:1313/courses/</link>
+    <description>Recent content in Courses on Adam Koziorz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/courses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CS341 - Algorithms</title>
+      <link>http://localhost:1313/courses/CS341/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/courses/CS341/</guid>
+      <description>The study of efficient algorithms and effective algorithm design techniques</description>
+    </item>
+    
+    <item>
+      <title>CS349 - User Interfaces</title>
+      <link>http://localhost:1313/courses/CS349/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/courses/CS349/</guid>
+      <description>An introduction to contemporary user interfaces and its components, specifications, and architectures</description>
+    </item>
+    
+    <item>
+      <title>CS350 - Operating Systems</title>
+      <link>http://localhost:1313/courses/CS350/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/courses/CS350/</guid>
+      <description>An introduction to the fundamentals of operating system function, design, and implementation</description>
+    </item>
+    
+    <item>
+      <title>Past Courses</title>
+      <link>http://localhost:1313/courses/past/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/courses/past/</guid>
+      <description>Quick summaries of past courses</description>
+    </item>
+    
+  </channel>
+</rss>

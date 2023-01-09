@@ -9,6 +9,7 @@ enableInlineShortcodes: true
 enableEmoji: true # allowing using emoji
 ShowPostNavLinks: true
 ShowBreadCrumbs: true
+builddrafts: true 
 
 # Main Page (Parameters)
 params:
@@ -20,8 +21,6 @@ params:
         imageWidth: 200 # custom size
         imageHeight: 200 # custom size
         buttons:
-            - name: Github
-              url: "https://github.com/AdamKoziorz"
             - name: Resume
               url: /resume
         ShowBreadCrums: true
