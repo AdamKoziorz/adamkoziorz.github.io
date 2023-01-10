@@ -10,6 +10,7 @@ enableEmoji: true # allowing using emoji
 ShowPostNavLinks: true
 ShowBreadCrumbs: true
 builddrafts: true 
+math: true
 
 # Main Page (Parameters)
 params:
@@ -51,6 +52,10 @@ menu:
       name: Course Notes
       url: courses
       weight: 1
+    - identifier: Blogs
+      name: Blogs
+      url: blogs
+      weight: 2
 
 # Other Stuff
 outputs:

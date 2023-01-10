@@ -9,7 +9,7 @@ ShowBreadCrumbs: false
 
 **Languages**: C++, Python, LaTeX, C, Racket
 
-**Technologies**: Git, Power BI, Alteryx, Azure, AWS, SQL
+**Technologies**: Git, Power BI, Azure, AWS, Alteryx, SQL
 
 **Certifications**: MS Azure Fundamentals (AZ-900), MS Azure AI Fundamentals (AI-900)
 
@@ -30,7 +30,7 @@ ShowBreadCrumbs: false
 
 **WLP4 Compiler**
 
-- As part of the CS241 curriculum, wrote a compiler in C++ that transforms the WLP4 language, a small subset of C++, to MIPS assembly language
+- Wrote a compiler in C++ that transforms the WLP4 language, a small subset of C, to MIPS assembly language as part of the course curriculum for CS241
 - Selected efficient data structures and algorithms to ensure that the compiler is optimal in time and space
 
 **Personal Site**
