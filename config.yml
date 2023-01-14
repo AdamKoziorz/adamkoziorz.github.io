@@ -11,6 +11,14 @@ ShowPostNavLinks: true
 ShowBreadCrumbs: true
 builddrafts: true 
 math: true
+comments: true
+
+# Allowing HTML code
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 
 # Main Page (Parameters)
 params:
