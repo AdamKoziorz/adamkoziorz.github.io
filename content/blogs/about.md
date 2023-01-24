@@ -22,8 +22,21 @@ Even more recently, I've developed interest in Human-Computer Interaction. I alr
 I intend to specialize in Human-Computer Interaction and currently expect to graduate sometime in 2025.
 
 
+### Adam.Music()
+My taste in music is pretty strange, with my two favourite music genres are bass music (dubstep, electro, house, etc.) and synthwave. I also listen to dozens of other genres like classical, ambient, and lofi.
+
+Here are some of my current favourites tracks:
+
+<center>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5T6GwsMRQ7sQgsiUleM4NV?utm_source=generator" width="90%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3Ueuln966p4Kjc82OpCCF5?utm_source=generator" width="90%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6kmVJYiw2jeRqsEl5Tf2Nw?utm_source=generator" width="90%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</center>
+
 ### Adam.FunFacts()
-* My favourite genres of music are dubstep, synthwave, and classical
+
 * Though I rarely have the opportunity to travel anymore, I love to travel
 * My entire family comes from Poland (yet I can't speak Polish lol)
 * Curiousity, reflectiveness and benevolence are my top three personality traits
