@@ -23,7 +23,7 @@ I intend to specialize in Human-Computer Interaction and currently expect to gra
 
 
 ### Adam.Music()
-My taste in music is pretty strange, with my two favourite music genres are bass music (dubstep, electro, house, etc.) and synthwave. I also listen to dozens of other genres like classical, ambient, and lofi.
+My taste in music is pretty strange, with my two favourite music genres being bass music (dubstep, electro, house, etc.) and synthwave. I also listen to dozens of other genres like classical, ambient, and lofi.
 
 Here are some of my current favourites tracks:
 
@@ -37,6 +37,6 @@ Here are some of my current favourites tracks:
 
 ### Adam.FunFacts()
 
-* Though I rarely have the opportunity to travel anymore, I love to travel
+* Though I rarely have the opportunity to travel anymore, I do love to travel
 * My entire family comes from Poland (yet I can't speak Polish lol)
 * Curiousity, reflectiveness and benevolence are my top three personality traits
