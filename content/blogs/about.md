@@ -23,16 +23,24 @@ I intend to specialize in Human-Computer Interaction and currently expect to gra
 
 
 ### Adam.Music()
-My taste in music is pretty strange, with my two favourite music genres being bass music (dubstep, electro, house, etc.) and synthwave. I also listen to dozens of other genres like classical, ambient, and lofi.
+I simply love electronic music, with my two favourite genres being bass music (dubstep, electro, house, etc.) and synthwave. I also listen to dozens of other genres like classical, ambient, and lofi.
 
-Here are some of my current favourites tracks:
+Here are some of my current favourite tracks:
 
 <center>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5T6GwsMRQ7sQgsiUleM4NV?utm_source=generator" width="90%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4qa86no2utS0vLc1a7nSrj?utm_source=generator" width="60%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3Ueuln966p4Kjc82OpCCF5?utm_source=generator" width="90%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3Ueuln966p4Kjc82OpCCF5?utm_source=generator" width="60%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6kmVJYiw2jeRqsEl5Tf2Nw?utm_source=generator" width="90%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5FuqxD4PizzMLrO0SKg7b8?utm_source=generator&theme=0" width="60%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6ysCjwmcEtZGsRlmxqf17p?utm_source=generator" width="60%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</center>
+
+I also have to shout out this absolutely incredible compilation from last year, with my favourite tracks being Tidal Sun and oleander.
+
+<center>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0EUka0iILBYQTOsIcxe3S9?utm_source=generator" width="60%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </center>
 
 ### Adam.FunFacts()
