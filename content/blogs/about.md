@@ -32,6 +32,8 @@ Here are some of my current favourite tracks:
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3Ueuln966p4Kjc82OpCCF5?utm_source=generator" width="60%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1YyxWbiQLgYPYEkT98dL7C?utm_source=generator" width="60%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5FuqxD4PizzMLrO0SKg7b8?utm_source=generator&theme=0" width="60%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6ysCjwmcEtZGsRlmxqf17p?utm_source=generator" width="60%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

@@ -7,9 +7,9 @@ ShowBreadCrumbs: false
 
 ## Technical Skills
 
-**Languages**: C++, Python, LaTeX, C, Racket
+**Languages**: C++, Python, Kotlin, LaTeX, C, Racket
 
-**Technologies**: Git, Power BI, Azure, AWS, Alteryx, SQL
+**Technologies**: Git, Power BI, Azure, JavaFX, AWS, Alteryx, SQL
 
 **Certifications**: MS Azure Fundamentals (AZ-900), MS Azure AI Fundamentals (AI-900)
 
@@ -41,7 +41,7 @@ ShowBreadCrumbs: false
 ## Education
 
 **Honours Computer Science @ University of Waterloo** _(Sept. 2020 - Present)_
-- Current Relevant Courses: Algorithms, User Interfaces, Operating Systems
+- Current Relevant Courses: User Interfaces, Algorithms, Operating Systems
 - Past Relevant Courses: Data Structures and Data Management, Object-Oriented Software Development
 
 ## Awards
