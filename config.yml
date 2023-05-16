@@ -56,14 +56,10 @@ params:
 
 menu:
   main:
-    - identifier: Courses Notes
-      name: Course Notes
-      url: courses
-      weight: 1
     - identifier: Blogs
       name: Blogs
       url: blogs
-      weight: 2
+      weight: 1
 
 # Other Stuff
 outputs:
