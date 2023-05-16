@@ -6,7 +6,7 @@ ShowToc: false
 draft: true
 ---
 
-I'm Adam Koziorz (he/they), and I am a 3rd year Computer Science Co-op student at the University of Waterloo! There are many personal experiences and interests of mine that have shaped my current path, and I would like to share to you those experiences and what that path might look like in the future.
+I'm Adam Koziorz, and I am a 3rd year Computer Science Co-op student at the University of Waterloo! There are many personal experiences and interests of mine that have shaped my current path, and I would like to share to you those experiences and what that path might look like in the future.
 
 
 ### Adam.ComputerScience()
