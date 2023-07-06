@@ -40,5 +40,4 @@ Here are some of my current favourite tracks:
 
 * Though I rarely have the opportunity to travel anymore, I do love to travel
 * My entire family comes from Poland, though I cannot speak Polish
-* Proud member of the LGBTQ+ community
 * Curiousity, reflectiveness and benevolence are my top three personality traits

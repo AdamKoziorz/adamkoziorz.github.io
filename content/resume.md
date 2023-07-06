@@ -7,7 +7,7 @@ ShowBreadCrumbs: false
 
 ## Technical Skills
 
-**Languages**: C++, Python, Kotlin, LaTeX, C, Racket
+**Languages**: C++, JavaScript, HTML, CSS, Kotlin, Python, C, LaTeX, Racket
 
 **Technologies**: Git, Power BI, Azure, JavaFX, AWS, Alteryx, SQL
 
