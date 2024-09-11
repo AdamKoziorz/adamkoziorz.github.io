@@ -7,19 +7,19 @@ ShowBreadCrumbs: false
 
 ## Technical Skills
 
-**Languages**: JavaScript, HTML, CSS, C++, C, Python, LaTeX, Racket
+**Languages**: Python, JavaScript, HTML, CSS, C++, C, Kotlin, LaTeX, Racket
 
-**Technologies**: Git, Power BI, Azure, Miro, Unix, Webpack, JavaFX, AWS, Alteryx, SQL
+**Technologies**: Git, Power BI, Pandas, Azure, Miro, Unix, Webpack, JavaFX, AWS, Alteryx, SQL
 
 **Certifications**: MS Azure Fundamentals (AZ-900), MS Azure AI Fundamentals (AI-900)
 
 ## Work Experience
 
-**AI/ML/NLP Data Scientist @ Genellipse Inc.** _(Jan. 2022 - Aug. 2022)_
+**AI/ML/NLP Data Scientist @ Genellipse Inc.** _(Jan-Aug 2022, Jan-Aug 2024)_
 
 - Launched a project that sought to migrate legacy ETL processes to Azure Functions, automating data refreshes and leading to better scalability, versioning, and maintenance
 - Developed interactive reports for an organization with Python, SQL, and Power BI, empowering clients with valuable operational insights and enabling informed decision making
-- Demonstrated Agile methodology to quickly complete deliverables and improve processes over time
+- Coordinated communication and planning between stakeholders and team members, contributing to the successful delivery of high-quality deliverables on time
 
 
 **Project Team Member @ Microsoft** _(May. 2021 - Aug. 2021)_
@@ -46,12 +46,7 @@ ShowBreadCrumbs: false
 
 **Honours Computer Science @ University of Waterloo** _(Sept. 2020 - Present)_
 - Specialization: Human-Computer Interaction
-- Current Relevant Courses: 
-    
-    Application Development, Human-Computer Interaction, Computer Networks
-- Past Relevant Courses: 
-
-    User Interfaces, Algorithms, Data Structures and Data Management
+- Cumulative GPA: 3.7
 
 ## Awards
 
