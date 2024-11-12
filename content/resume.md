@@ -7,44 +7,48 @@ ShowBreadCrumbs: false
 
 ## Technical Skills
 
-**Languages**: C++, JavaScript, HTML, CSS, Kotlin, Python, C, LaTeX, Racket
+**Languages**: JavaScript, Python, HTML, CSS, C++, Kotlin, C, LaTeX, Racket
 
-**Technologies**: Git, Power BI, Azure, JavaFX, AWS, Alteryx, SQL
+**Technologies**: Git, Power BI, Pandas, Azure, SQL, Alteryx, Compose, AWS
 
 **Certifications**: MS Azure Fundamentals (AZ-900), MS Azure AI Fundamentals (AI-900)
 
 ## Work Experience
 
-**AI/ML/NLP Data Scientist @ Genellipse Inc.** _(Jan. 2022 - Aug. 2022)_
+**Data Scientist & Project Lead @ Genellipse Inc.** _(Jan-Aug 2022, Jan-Aug 2024)_
 
-- Efficiently lead a project that sought to migrate prior ETL processes to Azure Functions, automating data refreshes and consequentially leading to better scalability, versioning, and maintenance
-- Applied knowledge of Pandas, SQL, and Power BI to develop interactive reports for an organization, enabling them to understand their operations and make better informed decisions
-- Utilized agile methodology to quickly complete deliverables and improve processes over time
+- Launched a project that sought to migrate legacy ETL processes to Azure Functions, automating data refreshes and leading to better scalability, versioning, and maintenance
+- Developed interactive reports for an organization with Python, SQL, and Power BI, empowering clients with valuable operational insights and enabling informed decision making
+- Coordinated communication and planning between stakeholders and team members, contributing to the successful delivery of high-quality deliverables on time
+
 
 **Project Team Member @ Microsoft** _(May. 2021 - Aug. 2021)_
 
-- Over a span of six weeks, collaborated with four other diverse and passionate students to design an app concept which improves health tracker effectiveness using newly taught knowledge of Azure's cloud and artificial intelligence solutions
-- Took lead in designing the app's virtual assistant, researching the demand and ethical considerations of health trackers, and creating a comphrehensive, but uncomplicated presentation of the final project
+- Collaborated efficiently with a diverse team of four students to conceptualize an app designed to enhance the efficacy of health trackers, leveraging Azure’s cloud and artificial intelligence solutions
+- Facilitated the design for the app’s virtual assistant, researching the demand and ethical considerations of health trackers to ensure the app’s safety and marketability
+- Produced a comprehensive, but uncomplicated presentation of the final product, effectively communicating to the target audience the app concept
 
 ## Projects
 
-**WLP4 Compiler**
+[**Dashboard**](https://akoziorz.github.io/ddin-dashboard) _(HTML/CSS/JS)_
 
-- Wrote a compiler in C++ that transforms the WLP4 language, a small subset of C, to MIPS assembly language as part of the course curriculum for CS241
-- Selected efficient data structures and algorithms to ensure that the compiler is optimal in time and space
+- Designed a responsive dashboard that showcases personal web development projects completed between May 2023 and August 2023
+- Exhibited a range of front-end development skills, including responsive design, DOM manipulation, API usage, user-friendly HTML forms, and the leveraging of browser development tools
 
-**Personal Site**
 
-- Utilized Hugo and Markdown to develop a static site to showcase course notes and personal resume to the public
-- Configured a CI/CD pipeline on GitHub, allowing this site to be hosted on GitHub Pages and be easily updated
+[**Weather App**](https://akoziorz.github.io/odin-weather) _(HTML/CSS/JS)_
+
+- Created a visually stunning interface for viewing the current weather forecast and time for any local region, customizing the view based on weather and celestial conditions
+- Proved proficiency in JavaScript best practices and asynchronous programming by utilizing promises for API calls with robust error-handling
+
 
 ## Education
 
 **Honours Computer Science @ University of Waterloo** _(Sept. 2020 - Present)_
-- Current Relevant Courses: User Interfaces, Algorithms, Operating Systems
-- Past Relevant Courses: Data Structures and Data Management, Object-Oriented Software Development
+- Specialization: Human-Computer Interaction
+- Cumulative GPA: 3.7
 
 ## Awards
 
-- Schulich Leader Nominee for top entrepreneurial STEM student in graduating class _(Jan. 2020)_
-- Governor General Academic Medal - 98.33% overall average in Grade 12 _(Jun. 2020)_
+- Schulich Leader Nominee for top entrepreneurial STEM student in graduating class
+- Governor General Academic Medal - 98.33% overall average in Grade 12
