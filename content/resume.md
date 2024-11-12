@@ -30,13 +30,13 @@ ShowBreadCrumbs: false
 
 ## Projects
 
-[**Dashboard**](https://akoziorz.github.io/ddin-dashboard) _(HTML/CSS/JS)_
+[**Dashboard**](https://adamkoziorz.github.io/odin-dashboard) _(HTML/CSS/JS)_
 
 - Designed a responsive dashboard that showcases personal web development projects completed between May 2023 and August 2023
 - Exhibited a range of front-end development skills, including responsive design, DOM manipulation, API usage, user-friendly HTML forms, and the leveraging of browser development tools
 
 
-[**Weather App**](https://akoziorz.github.io/odin-weather) _(HTML/CSS/JS)_
+[**Weather App**](https://adamkoziorz.github.io/odin-weather) _(HTML/CSS/JS)_
 
 - Created a visually stunning interface for viewing the current weather forecast and time for any local region, customizing the view based on weather and celestial conditions
 - Proved proficiency in JavaScript best practices and asynchronous programming by utilizing promises for API calls with robust error-handling
