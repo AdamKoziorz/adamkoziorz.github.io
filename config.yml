@@ -25,10 +25,10 @@ params:
     profileMode:
         enabled: true
         title: "Adam Koziorz" # optional default will be site title
-        subtitle: "HCI Student @ UWaterloo"
-        imageUrl: "user.jpg"
-        imageWidth: 200 # custom size
-        imageHeight: 200 # custom size
+        subtitle: 'HCI Student @ UWaterloo'
+        imageUrl: "icon.png"
+        imageWidth: 250 # custom size
+        imageHeight: 250 # custom size
         buttons:
             - name: About Me
               url: /about
@@ -36,7 +36,7 @@ params:
 
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
 
-    defaultTheme: dark # defaultTheme: light or dark
+    defaultTheme: light # defaultTheme: light or dark
     disableThemeToggle: false
     DateFormat: "January 2, 2006"
     ShowShareButtons: false
@@ -56,15 +56,10 @@ params:
 
 menu:
   main:
-    - identifier: Resume
-      name: Resume
-      url: resume
+    - identifier: Focuses
+      name: Areas of Focus
+      url: areas-of-focus
       weight: 1
-
-    - identifier: Projects
-      name: Projects
-      url: odin-dashboard
-      weight: 2
 
     - identifier: Blogs
       name: Blogs

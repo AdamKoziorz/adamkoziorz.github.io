@@ -1,7 +1,7 @@
 ---
 title: "The Design of AI Solutions"
 url: "blogs/the-design-of-ai-solutions"
-summary: Designers must learn to adapt to the rise of AI technology
+summary: Applying Don Norman's "The Design of Everyday Things" to AI solutions
 ShowToc: false
 hidemeta: false
 date: 2024-11-11
