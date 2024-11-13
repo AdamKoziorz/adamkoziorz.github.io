@@ -11,11 +11,11 @@ ShowBreadCrumbs: false
 
 I have taken courses in user interfaces, human-centered design, and cognitive psychology. Right now, I am currently diving into more research regarding UX design. 
 
-As an aspiring UX designer, I find it especially important and engaging for me to:
+As an aspiring UX designer, I find it particularly important and rewarding to:
 
 * Design with human behaviour and limitations in mind
 * Foster feelings of empowerment and self-control
-* Communicate complex implementation info and outputs in understandable ways
+* Make complex systems understandable and transparent for end users
 
 
 
