@@ -36,9 +36,9 @@ params:
 
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
 
-    defaultTheme: light # defaultTheme: light or dark
+    defaultTheme: light
     disableThemeToggle: true
-    # DateFormat: "January 2, 2006"
+    DateFormat: "January 2, 2006"
     ShowShareButtons: false
     ShowReadingTime: false
     disableScrollToTop: false
