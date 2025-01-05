@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Adam Koziorz</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Adam Koziorz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Design of AI Solutions</title>
+      <link>http://localhost:1313/blogs/the-design-of-ai-solutions/</link>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blogs/the-design-of-ai-solutions/</guid>
+      <description>Applying Don Norman&amp;rsquo;s &amp;ldquo;The Design of Everyday Things&amp;rdquo; to AI solutions</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>Would you like to learn more about me?</description>
+    </item>
+    
+    <item>
+      <title>Areas of Focus</title>
+      <link>http://localhost:1313/areas-of-focus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/areas-of-focus/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/map.png&#34; alt=&#34;Skills&#34;  /&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;ux-design&#34;&gt;UX Design&lt;/h3&gt;
+&lt;p&gt;I have taken courses in user interfaces, human-centered design, and cognitive psychology. Right now, I am currently diving into more research regarding UX design.&lt;/p&gt;
+&lt;p&gt;As an aspiring UX designer, I find it particularly important and rewarding to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Design with human behaviour and limitations in mind&lt;/li&gt;
+&lt;li&gt;Foster feelings of empowerment and self-control&lt;/li&gt;
+&lt;li&gt;Make complex systems understandable and transparent for end users&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;human-centered-ai-systems&#34;&gt;Human-Centered AI Systems&lt;/h3&gt;
+&lt;p&gt;I will soon be taking courses in machine learning and ethics with the goal of being able to understand both the implementation and implications of modern AI technologies.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CO487 - Course Notes</title>
+      <link>http://localhost:1313/courses/co487/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/courses/co487/</guid>
+      <description>Applied Cryptography - W25</description>
+    </item>
+    
+    <item>
+      <title>CS459 - Course Notes</title>
+      <link>http://localhost:1313/courses/cs459/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/courses/cs459/</guid>
+      <description>Privacy, Cryptography, Network, and Data Security - W25</description>
+    </item>
+    
+    <item>
+      <title>CS492 - Course Notes</title>
+      <link>http://localhost:1313/courses/cs492/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/courses/cs492/</guid>
+      <description>Discrimination, Privacy, and Survelliance in Computing - W25</description>
+    </item>
+    
+  </channel>
+</rss>
