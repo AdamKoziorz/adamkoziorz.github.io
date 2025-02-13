@@ -7,7 +7,7 @@ ShowToc: false
 
 ### Focus of Studies
 
-I am an aspiring UX designer that wishes to specialize in the harmonious and responsible design of AI and big data solutions. By the time I graduate, I would have taken key courses in HCI as well as gained knowledge in machine learning, data protection, distributed systems, and ethics.
+I am an aspiring UX designer that wishes to specialize in the harmonious and responsible design of AI and big data solutions. By the time I graduate, I would have taken key courses in HCI as well as gained knowledge in machine learning, network security, and data privacy.
 
 In addition to my courses, I have also gained experience as a project manager, data scientist, and front-end developer through co-op and self-learning.
 
