@@ -26,12 +26,14 @@ params:
         enabled: true
         title: "Adam Koziorz" # optional default will be site title
         subtitle: 'HCI Student @ UWaterloo'
-        imageUrl: "icon.png"
-        imageWidth: 340 # custom size
-        imageHeight: 340 # custom size
+        imageUrl: "pfp.png"
+        imageWidth: 200 # custom size
+        imageHeight: 200 # custom size
         buttons:
             - name: About Me
               url: /about
+            - name: Areas of Focus
+              url: /areas-of-focus
         ShowBreadCrums: true
 
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -56,21 +58,21 @@ params:
 
 
 menu:
-  main:
-    - identifier: Focuses
-      name: Areas of Focus
-      url: areas-of-focus
-      weight: 1
+  # main:
+  #   - identifier: Focuses
+  #     name: Areas of Focus
+  #     url: areas-of-focus
+  #     weight: 1
 
-    - identifier: Blogs
-      name: Blogs
-      url: blogs
-      weight: 2
+  # - identifier: Blogs
+  #     name: Blogs
+  #     url: blogs
+  #     weight: 2
 
-    # - identifier: Courses
-    #   name: Courses
-    #   url: courses
-    #   weight: 3
+  # - identifier: Courses
+  #     name: Courses
+  #     url: courses
+  #     weight: 3
 
 # Other Stuff
 outputs:

@@ -5,18 +5,15 @@ showToc: false
 ShowBreadCrumbs: false
 ---
 
-![Skills](/map.png)
-
 ### UX Design
 
-I have taken courses in user interfaces, human-centered design, and cognitive psychology. Right now, I am currently diving into more research regarding UX design. 
+I have taken courses in user interfaces, human-centered design, and cognitive psychology, and I am currently diving into more research regarding UX design. 
 
 As an aspiring UX designer, I find it particularly important and rewarding to:
 
 * Design with human behaviour and limitations in mind
 * Foster feelings of empowerment and self-control
 * Make complex systems understandable and transparent for end users
-
 
 
 ### Human-Centered AI Systems
@@ -27,20 +24,23 @@ I am particularly interested in the design of responsible AI systems that:
 
 * Augment human abilities rather than displace them
 * Promote collaboration, self-improvement, and trust with the humans that use it
-* Avoid harmful biases and addresses data-related concerns
+* Avoid harmful biases and addresses privacy concerns
 
 
-### Data Science
+### Data and Networks
 
-* I have previously worked as a data scientist, and I was responsible for developing an improved BI reporting architecture and DevOps practices that eventually enabled the efficient development of automatically refreshed, intuitive dashboards
-* In the future, I will be taking courses in data privacy and security, databases, and data intensive distributed computing
-* I am interested in how we can effectively work with user data in an ethical manner, especially from a privacy standpoint
+* I am currently taking courses in Cryptography and Network Security, and in the future, I will also be taking courses in databases and data intensive distributed computing.
+* I have previously worked as a data scientist where I was responsible for developing an improved BI reporting architecture that eventually enabled the efficient development of automatically refreshed, intuitive dashboards
+* I am interested in learning how we can effectively work with user data to reveal insights and develop powerful applications while ensuring privacy
+
 
 ### Project Management
 
 * While I previously worked as a data scientist, I also took on project management responsibilities, effectively coordinating communication between stakeholders and ensuring the timely completion of the high quality dashboards my team was responsible for
 * I realized the importance of clear communication and documentation, and developed an understanding of how stakeholders in different teams interact with each other
 * I wish to be in a role where I am able to make an impact on my team and nurture a collaborative, inclusive environment
+
+
 
 ### Web Development
 
