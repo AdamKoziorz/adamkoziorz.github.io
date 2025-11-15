@@ -6,8 +6,8 @@ export const personalInfo = {
   linkedin: "https://ca.linkedin.com/in/adam-koziorz",
   profilePicture: "/pfp.png",
   heroDescription:
-    "I am an aspiring software engineer that wishes to specialize in the harmonious and responsible design and implementation of AI and big data solutions. By the time I graduate, I would have gained knowledge in human-computer interaction, machine learning, networks, and data privacy. I have also gained experience as a project manager, data scientist, and software developer through internships and self-learning."
-};
+    "I am an aspiring software engineer that wishes to specialize in the harmonious, responsible design and implementation of AI and big data solutions. By the time I graduate, I would have gained knowledge in human-computer interaction, machine learning, networks, and data privacy. I have also gained experience as a project manager, data scientist, and software developer through internships and self-learning.",
+  };
 
 export const workExperience = [
   {
@@ -16,9 +16,9 @@ export const workExperience = [
     position: "Business Technologist",
     period: "May 2025 - August 2025",
     achievements: [
-      "Developed and deployed a small internal Electron application to assist in the analysis of staff availabilities, saving management up to 45 minutes of manual data analysis per week",
+      "Developed and deployed a small internal Electron application to assist in the analysis of staff availabilities, saving management up to 60 minutes of manual data analysis per week",
       "Contributed to the prototype of an internal, locally-run AI scribe tool built with Ollama and LangChain by implementing the Chain of Agents framework, improving information recall by 23% and eliminating hallucinations",
-      "Involved in the data architecture design and privacy risk assessment of a proposed agentic AI solution for real-time data analysis within the Social Services department, successfully receiving approval for future implementation",
+      "Involved in the data architecture design and privacy impact assessment of a proposed agentic AI solution for real-time data analysis, complying with PHIPA and receiving approval for future consideration",
     ],
   },
   {
@@ -48,21 +48,23 @@ export const skills = {
     "Python ★",
     "SQL ★",
     "Kotlin",
-    "LaTeX"
+    "LaTeX",
+    "C++",
   ],
   frontendDevelopment: [
     "React ★",
     "Electron ★",
-    "React Query ★",
     "MapLibre GL ★",
     "TailwindCSS ★",
-    "Zustand ★",
+    "React Query",
+    "Zustand",
     "Vite",
-    "Streamlit"
+    "Streamlit",
+    "Astro"
   ],
   backendDevelopment: ["Node ★", "Express ★", "NumPy ★", "Scikit-Learn ★", "Ollama", "LangChain", "Kysely"],
-  databaseAndStorage: ["PostgreSQL ★"],
-  cloudAndDevOps: ["Azure ★", "Git ★", "Docker", "AWS"],
+  databaseAndStorage: ["PostgreSQL ★", "MySQL"],
+  cloudAndDevOps: ["Azure ★", "Git ★", "Docker ★", "Miro ★", "AWS"],
   toolsAndServices: [
     "PowerBI ★",
     "Google Colab",
