@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title = "Projects" sideBarActiveItemID="projects">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Projects</div>
+  </div>
+
+  <HorizontalCard
+    title="Mealer"
+    img="/mealer.png"
+    desc="A restaurant recommender app for foodies who mainly trust their own taste. Expected release around January/February 2026."
+    url="https://github.com/AdamKoziorz/mealer"
+    badge="Ongoing"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Weather App"
+    img="/weather.gif"
+    desc="A simple, aesthetic weather API wrapper inspired by glassmorphism and pixel art"
+    url="https://adamkoziorz.github.io/odin-weather/"
+  />
+  <div class="divider my-0"></div>
+</BaseLayout>
