@@ -1,6 +1,6 @@
 ---
 title: "Areas of Focus"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+description: "Learn more about what interests me the most about Computer Science"
 pubDate: "December 15 2025"
 heroImage: "/skills.png"
 ---
