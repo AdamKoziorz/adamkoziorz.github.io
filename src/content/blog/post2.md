@@ -14,7 +14,7 @@ Though I am someone that focuses more on machine learning, web development, and 
 * Augment human abilities rather than displace them
 * Account for human behavior, cognition, and limitations
 * Foster feelings of empowerment and self-control
-* Make complex systems understandable and transparent for end users
+* Are understandable and transparent for end users
 
 
 ### Secure, Private Data Science
@@ -22,7 +22,7 @@ Though I am someone that focuses more on machine learning, web development, and 
 I have taken courses in machine learning, network security, data privacy, and cryptography. Consequently, I have developed an understanding of the opportunities and risks when it comes to large scale data science and machine learning. In practice, this includes:
 
 * Selecting, training, and evaluating models across various domains such as statistical learning to natural language processing
-* Applying modern techniques for secure data transfer, storage, and processing while respecting user privacy and threat models
+* Applying modern techniques for secure data transfer, storage, and processing while taking into consideration user privacy and adversarial attacks
 
 
 ### Software Development
@@ -30,4 +30,4 @@ I have taken courses in machine learning, network security, data privacy, and cr
 Across internships in both startup and highly regulated environments, I have gained experience working at different scales and levels of visibility. I am motivated to grow as a software developer and hone my skills, even during my free time when I work on side projects. Most importantly, I have developed:
 
 * Strong communication and documentation practices, shaped by experience working with stakeholders across multiple teams
-* A deep appreciation for good design across all faucets of software development, everything from APIs to databases.
+* A deep appreciation for good design across all faucets of software development, everything from APIs to databases
