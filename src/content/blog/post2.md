@@ -1,33 +1,25 @@
 ---
 title: "Areas of Focus"
 description: "Learn more about what interests me the most about Computer Science"
-pubDate: "December 15 2025"
-heroImage: "/skills.png"
+pubDate: "May 1 2026"
 ---
 
-### Human-Centered AI Systems
+### Human-Centered AI
 
-I have taken courses in user interfaces, human-centered design, and cognitive psychology, and I am currently diving into more research regarding UX design.
+I believe the most important question in AI is not what a system can do, but how it affects the people using it. My interest in human-centered AI comes from previously studying user interfaces, human-computer interaction, and cognitive psychology. I care about building systems that are not only capable but legible, where users can form accurate mental models of what the system is doing and why.
 
-Though I am someone that focuses more on machine learning, web development, and data security and privacy, I find it particularly important and rewarding to design AI-enabled systems that:
+In practice, this often means making deliberate tradeoffs: prioritizing transparency over raw performance, constraining model behaviour to reduce ambiguity, and designing interfaces that reflect real cognitive limits rather than idealized users. I am also increasingly conscious of the environmental cost of the systems that power these models and how that should influence when and how they are used.
 
-* Augment human abilities rather than displace them
-* Account for human behavior, cognition, and limitations
-* Foster feelings of empowerment and self-control
-* Are understandable and transparent for end users
+
+### Geospatial Systems
+
+I have deep secondary interests in cities and the natural environment, and I find it most rewarding to build software that engages with the physical world - tools that ask real questions about how urban spaces change over time and who bears the cost of those changes.
+
+I'm currently building Drift, a urban change dashboard for Toronto, and Mealer, a map-based restaurant tracker and recommender web app. Both projects reflect the same core interest of supporting better interaction and planning in my own city.
 
 
 ### Secure, Private Data Science
 
-I have taken courses in machine learning, network security, data privacy, and cryptography. Consequently, I have developed an understanding of the opportunities and risks when it comes to large scale data science and machine learning. In practice, this includes:
+Data at scale creates real risk for individuals and communities. My background in machine learning, security, and cryptography has led me to think about privacy as a systems problem rather than a feature. 
 
-* Selecting, training, and evaluating models across various domains such as statistical learning to natural language processing
-* Applying modern techniques for secure data transfer, storage, and processing while taking into consideration user privacy and adversarial attacks
-
-
-### Software Development
-
-Across internships in both startup and highly regulated environments, I have gained experience working at different scales and levels of visibility. I am motivated to grow as a software developer and hone my skills, even during my free time when I work on side projects. Most importantly, I have developed:
-
-* Strong communication and documentation practices, shaped by experience working with stakeholders across multiple teams
-* A deep appreciation for good design across all faucets of software development, everything from APIs to databases
+I am interested in how data is collected, transformed, stored, and exposed - and how decisions at each stage affect what can be inferred about individuals and communities. Just because something is technically possible doesn't mean that collecting and using the data was justified to begin with.
