@@ -1,6 +1,6 @@
 ---
 title: "Areas of Focus"
-description: "Learn more about what interests me the most about Computer Science"
+description: "Learn more about what interests me the most about software development!"
 pubDate: "May 1 2026"
 ---
 

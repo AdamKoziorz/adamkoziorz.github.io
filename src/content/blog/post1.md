@@ -2,7 +2,6 @@
 title: "My Learning Workflow"
 description: "How I'm currently using Claude MCP and Obsidian to implement active recall and spaced repetition learning strategies to strengthen my skills"
 pubDate: "March 10, 2026"
-heroImage: "/obsidian.png"
 ---
 
 ### Introduction

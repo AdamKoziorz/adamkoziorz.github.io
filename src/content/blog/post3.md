@@ -1,8 +1,7 @@
 ---
 title: "Side Project: Drift"
-description: "A reproducible data pipeline that showcases urban factors across Toronto related to gentrification. Learn more about my second side project!"
+description: "Learn more about my Drift side project!"
 pubDate: "April 23, 2026"
-heroImage: "/toronto.webp"
 ---
 
 ### Overview
