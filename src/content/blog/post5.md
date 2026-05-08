@@ -1,10 +1,12 @@
 ---
 title: "Side Project: Mealer"
 description: "Learn more about my Mealer side project!"
-pubDate: "May 9, 2026"
+pubDate: "May 7, 2026"
 ---
 
 **Mealer is now released to the public as Version 0.1.0!**
+
+_(That means it is not yet a stable release!)_
 
 ### Overview
 
@@ -14,6 +16,15 @@ Please feel free to mention issues or give me suggestions for my app either thro
 
 
 ### System Design
+
+Here is the current state of my system design:
+
+<figure style="text-align:center;">
+    <img src="../../../architecture.png" alt="My system design architecture" width="700" height="400">
+</figure>
+
+This is effectively just a dockerized web app deployed on a small-scale virtual private network with an external S3 bucket set up for database backups. Although it is not robust by any means (none of that fancy stuff like replication, auto scaling, and fault tolerance, which I'd need to pay lots and lots of money for and can't justify doing for a small side project like this), I believe this is a good setup for less than $7 a month.
+
 
 My codebase is structured as a `pnpm` monorepo, where the frontend code is inspired by feature sliced design (FSD), and the backend code is inspired by the controller-service-repository (CSR) pattern. Utilizing layered architectures like these allows for easier maintainability and flexibility, and enables me to better reason about the individual components of my application and how they should interact.
 
