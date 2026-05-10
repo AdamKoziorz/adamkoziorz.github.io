@@ -48,4 +48,4 @@ My app is far from being considered "complete". There will be a couple of notabl
 * Further production hardening with testing, logging, and CI/CD pipelines
 * New features, including frequency tracking, categories, filtering, distance search, friends, and LLM-powered recommendations
 
-As I am dealing with many different responsibilities and working on many different things as a new grad, I am currently aiming to release Version 1.0.0 (the first general release, truly complete app) by the end of August or September, depending on how much free time I have!
+As I am dealing with many different responsibilities and working on many different things as a new grad, I am currently aiming to release Version 1.0.0 (the first general release) by the end of August or September, depending on how much free time I have!
