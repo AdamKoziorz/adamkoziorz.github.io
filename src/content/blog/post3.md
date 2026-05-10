@@ -12,15 +12,43 @@ Drift is a reproducible pipeline that integrates longitudinal census, housing, a
 
 This project presents a wide variety of interesting challenges for me, including but not limited to multi-source data integration, spatial analysis, longitudinal analysis, schema design, and pipeline reproducibility. By far the most challenging problem, however, that I expect to tackle is tract boundary harmonization (reconciling geospatial data over time).
 
+I hope to have a MVP of this project deployed by the end of August!
 
-### Proposed System Design
 
-* **Data Sources**: Census data (income, education, demographics), Toronto Open Data (permits and 311 requests), CMHC (rent and vacancy data)
-* **Orchestration**: Prefect
-* **Storage & Transformation**: DuckDB (storage), dbt (data transformations)
-* **Spatial Processing**: GeoPandas
-* **Analytics**: OLS regression, Geographically Weighted Regression (GWR)
-* **API and Interface**: FastAPI (serves results), and MapLibre GL (to serve the dashboard)
+### System Design
+
+This system design diagram effectively shows what infrastructure and tools I plan to use, but not how I'm going to use and implement these tools. Continue reading for more info!
+
+<figure style="text-align:center;">
+    <img src="../../../drift.jpg" alt="My system design architecture" width="700" height="400">
+</figure>
+
+
+### Explanation and Rationale
+
+#### Cadences and Ephemeral Containers
+Drift's data sources update on very different schedules: Census every five years, CMHC monthly, Toronto Open Data daily-to-weekly. Rather than force everything through one pipeline, I plan to treat Census releases as events, not routine refreshes, as they can introduce significant changes in geography, schema, or methodology that benefit from human review. Drift will use two refresh paths: an automated monthly pipeline for regular sources, and a manual Census refresh each time a new Census is released.
+
+The monthly pipeline will combine the latest validated Census baseline with newer housing and municipal data. Because this pipeline runs infrequently, I will have it run in ephemeral container that spins up, builds artifacts, and shuts down instead of an always-on virtual machine. This will enable powerful compute with minimal costs.
+
+
+#### The Role of dbt and Python
+I plan to use both dbt and Python in my data pipelines because they solve different parts of the problem. dbt handles repeatable analytical modelling: staging, intermediate, and mart tables, plus tests, documentation, and lineage. Python handles work that doesn't fit dbt's SQL-first model, specifically GeoPandas for spatial preparation and specialized analytics like Geographically Weighted Regression (GWR) for the manual Census refresh pipeline, which is computationally expensive.
+
+Prefect will coordinate these pieces, keeping dbt focused on modelling and validation while still supporting heavier statistical work.
+
+
+#### Serverless Unless Otherwise Needed
+A traditional API server could add unnecessary complexity. The data is public, precomputed, and needs no authentication, so the frontend doesn't need to query FastAPI for every result. Therefore, the first version of my pipelines will publish versioned artifacts: PMTiles and JSON for the dashboard, Parquet and DuckDB for reproducibility and downloads. The frontend will then read them from Cloudflare R2, leveraging its CDN capabilities. 
+
+DuckDB remains valuable as the analytical engine behind the pipeline, but the public dashboard doesn't need a live database server yet. A second version may introduce FastAPI if users need dynamic queries that can't be precomputed or handled client-side.
+
+
+### Takeaway
+
+> Let the data and dashboard requirements determine the infrastructure.
+
+That's why Drift will treat major census updates as reviewed events, run monthly refreshes in ephemeral containers instead of a virtual machine, use dbt and Python for what each does best, and serve static, versioned artifacts for as long as all front-facing data is precomputed.
 
 
 ### Inspiration
