@@ -1,128 +1,146 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import TimeLineElement from "../components/resume/TimeLine.astro";
 
-
-const skills = [
-  {
-    title: "Programming Languages",
-    items: [
-      "TypeScript",
-      "Python",
-      "SQL",
-    ]
-  },
-  {
-    title: "Frontend",
-    items: [
-      "React",
-      "MapLibre GL",
-      "TailwindCSS",
-      "React Query",
-      "Zustand",
-      "Vite",
-      "Astro",
-    ],
-  },
-  {
-    title: "Backend",
-    items: [
-      "Node",
-      "Express",
-      "Electron",
-      "Kysely"
-    ],
-  },
-    {
-    title: "Data Science",
-    items: [
-      "NumPy",
-      "Scikit-Learn",
-      "PyTorch",
-      "Ollama",
-      "LangChain"
-    ],
-  },
-  {
-    title: "Database & Storage",
-    items: ["PostgreSQL", "MySQL"],
-  },
-  {
-    title: "Cloud & DevOps",
-    items: ["Azure", "Git", "Docker", "AWS"],
-  },
-  {
-    title: "Tools",
-    items: ["Power BI", "Alteryx"],
-  },
-];
-
+const resumeUrl = "/Adam%20Koziorz%20Resume%20-%20S26.pdf";
 ---
 
 <BaseLayout title="Resume" sideBarActiveItemID="resume">
-  <div>
-    <div class="text-3xl w-full font-bold mb-10">My Resume</div>
+  <div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+    <div class="text-3xl font-bold">My Resume</div>
+    <div class="flex gap-2">
+      <a
+        href={resumeUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-sm btn-outline"
+      >
+        Open in new tab
+      </a>
+      <a
+        href={resumeUrl}
+        download="Adam Koziorz Resume - S26.pdf"
+        class="btn btn-sm btn-primary"
+      >
+        Download PDF
+      </a>
+    </div>
   </div>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold"> 🛠️ Skills</div>
-  </div>
-
-  <div class="space-y-4 mb-12">
-    {skills.map((group) => (
-      <div class="flex flex-col gap-2">
-        <div class="flex items-center gap-2 text-medium font-bold">
-          <span>{group.title}</span>
-        </div>
-        <div class="flex flex-wrap gap-2 ml-2">
-          {group.items.map((skill) => (
-            <span class="inline-block rounded-md bg-base-200 px-3 py-1 text-xs text-base-content/80">
-            {skill}
-          </span>
-          ))}
-        </div>
-      </div>
-    ))}
-  </div>
-  
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold"> 🎓 Education</div>
-  </div>
-
-  <div class="time-line-container grid gap-4 mb-10">
-    <TimeLineElement
-      title="Computer Science Honours Co-op (BCS)"
-      subtitle="September 2020 to April 2026 at the University of Waterloo, ON"
-    />
-  </div>
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold"> 💼 Experience</div>
-  </div>
-
-  <div class="time-line-container mb-10">
-    <TimeLineElement
-      title="Software Developer Intern"
-      subtitle="From May 2025 to August 2025 at the Regional Municipality of Durham, Whitby, ON"
+  <div
+    id="resume-viewer"
+    class="rounded-lg border border-base-300 shadow-sm overflow-hidden bg-base-200"
+  >
+    <p
+      id="resume-status"
+      class="px-4 py-8 text-center text-sm text-base-content/60"
     >
-      <ul class="list-disc mx-6 pb-8">
-      <li>Extended an internal AI scribe prototype (<b>Python</b>, <b>Ollama</b>) by implementing the Chain-of-Agents framework, improving long-context information recall on a CPU-run, lightweight model </li>
-      <li>Developed an internal app (<b>Electron</b>, <b>TypeScript</b>, <b>React</b>) that replaced a 2-hour manual workflow with a single upload-and-compute step, enabling quicker and more accurate cross-team reporting </li>
-      <li>Supported the design of the data architecture and privacy risk assessment of a proposed agentic data analysis system; secured senior leadership approval upon presenting to regional staff </li>
-      </ul>
-
-
-    </TimeLineElement>
-    <TimeLineElement
-      title="Lead Data Scientist and Project Manager"
-      subtitle="From January 2022 to August 2022 and January 2024 to August 2024 at Genellipse Inc., Remote, ON"
-    >
-      <ul class="list-disc mx-6">
-      <li> Spearheaded a project to migrate legacy ETL processes to <b>Azure</b>, leading to automated data refreshes, improved maintenance, and a runtime reduction from 90 minutes to 5 minutes</li>
-      <li> Built interactive analytics dashboards (<b>Pandas</b>, <b>SQL</b>, <b>Power BI</b>), empowering a high-end hospitality client with valuable operational insights and enabling informed decision making </li>
-      <li> Coordinated stakeholder communication and sprint planning, ensuring timely, high-quality deliverables </li>
-      </ul>
-    </TimeLineElement>
+      Loading resume preview…
+    </p>
+    <div id="resume-pages" class="flex flex-col gap-3"></div>
   </div>
+
+  <noscript>
+    <div class="mt-4 rounded-lg border border-base-300 overflow-hidden shadow-sm">
+      <iframe
+        src={resumeUrl}
+        title="Adam Koziorz Resume"
+        class="w-full"
+        style="aspect-ratio: 8.5 / 11; min-height: 600px;"
+      ></iframe>
+    </div>
+  </noscript>
 </BaseLayout>
+
+<script>
+  import * as pdfjsLib from "pdfjs-dist";
+  import workerUrl from "pdfjs-dist/build/pdf.worker.min.mjs?url";
+
+  pdfjsLib.GlobalWorkerOptions.workerSrc = workerUrl;
+
+  const PDF_URL = "/Adam%20Koziorz%20Resume%20-%20S26.pdf";
+  const MAX_DPR = 2; // cap pixel density so canvases don't get huge
+
+  type Entry = {
+    page: any;
+    canvas: HTMLCanvasElement;
+    renderTask: any;
+    lastWidth: number;
+  };
+
+  let entries: Entry[] = [];
+  let resizeTimer: number | undefined;
+
+  function renderPage(entry: Entry, pagesEl: HTMLElement) {
+    const cssWidth = pagesEl.clientWidth;
+    if (!cssWidth) return; // not laid out / hidden — a later resize will retry
+
+    const dpr = Math.min(window.devicePixelRatio || 1, MAX_DPR);
+    const base = entry.page.getViewport({ scale: 1 });
+    const viewport = entry.page.getViewport({
+      scale: (cssWidth / base.width) * dpr,
+    });
+
+    // A canvas can't be in two render passes at once — cancel any in flight.
+    if (entry.renderTask) entry.renderTask.cancel();
+
+    entry.canvas.width = Math.floor(viewport.width);
+    entry.canvas.height = Math.floor(viewport.height);
+    entry.canvas.style.width = "100%";
+    entry.canvas.style.height = "auto";
+    entry.lastWidth = cssWidth;
+
+    const ctx = entry.canvas.getContext("2d");
+    if (!ctx) return;
+
+    const task = entry.page.render({ canvasContext: ctx, viewport });
+    entry.renderTask = task;
+    task.promise.catch((err: any) => {
+      if (err?.name !== "RenderingCancelledException") console.error(err);
+    });
+  }
+
+  async function setup() {
+    const pagesEl = document.getElementById("resume-pages");
+    const statusEl = document.getElementById("resume-status");
+    if (!pagesEl || !statusEl) return;
+
+    // Guard: only render once per DOM (handles double-fire on first load).
+    if (pagesEl.dataset.resumeRendered) return;
+    pagesEl.dataset.resumeRendered = "true";
+
+    entries = [];
+    try {
+      const pdf = await pdfjsLib.getDocument(PDF_URL).promise;
+      for (let n = 1; n <= pdf.numPages; n++) {
+        const page = await pdf.getPage(n);
+        const canvas = document.createElement("canvas");
+        canvas.className = "block w-full bg-white";
+        pagesEl.appendChild(canvas);
+        const entry: Entry = { page, canvas, renderTask: null, lastWidth: 0 };
+        entries.push(entry);
+        renderPage(entry, pagesEl);
+      }
+      statusEl.style.display = "none";
+    } catch (err) {
+      console.error("Resume preview failed to render:", err);
+      statusEl.textContent =
+        "The preview couldn't load — use the buttons above to view or download the resume.";
+    }
+  }
+
+  window.addEventListener("resize", () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = window.setTimeout(() => {
+      const pagesEl = document.getElementById("resume-pages");
+      if (!pagesEl) return;
+      for (const entry of entries) {
+        if (pagesEl.clientWidth !== entry.lastWidth) renderPage(entry, pagesEl);
+      }
+    }, 150);
+  });
+
+  // Fires on every navigation when ViewTransitions is on...
+  document.addEventListener("astro:page-load", setup);
+  // ...and this covers the plain (no-ViewTransitions) initial load.
+  setup();
+</script>

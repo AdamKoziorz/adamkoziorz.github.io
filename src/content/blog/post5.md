@@ -4,9 +4,10 @@ description: "Learn more about my Mealer side project!"
 pubDate: "May 7, 2026"
 ---
 
-**Mealer is now released to the public as Version 0.1.0!**
+**Mealer is now released to the public as Version 0.1.6!**
 
 _(That means it is not yet a stable release!)_
+
 
 ### Overview
 
