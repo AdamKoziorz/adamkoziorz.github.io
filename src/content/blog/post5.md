@@ -47,6 +47,6 @@ This app was a great learning experience to see what to takes to develop a produ
 My app is far from being considered "complete". There will be a couple of notable updates in the future, which will include:
 
 * Further production hardening with testing, logging, and CI/CD pipelines
-* New features, including frequency tracking, categories, filtering, distance search, and LLM-powered recommendations
+* New features, including frequency tracking, categories, filtering, distance search, friends, and LLM-powered recommendations
 
-As I am dealing with many different responsibilities and working on many different things as a new grad, I am currently aiming to release Version 1.0.0 (the first general release, truly complete app) by the end of August or September, depending on how much free time I have!
+As I am dealing with many different responsibilities and working on many different things as a new grad, I am currently aiming to release Version 1.0.0 (the first general release) by the end of August or September, depending on how much free time I have!
